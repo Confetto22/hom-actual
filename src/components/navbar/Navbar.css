@@ -1,0 +1,12 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.7rem;
+    /* background-color: green; */
+    /* border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255); */
+}
+#churchLogo{
+    width: 160px;
+}
