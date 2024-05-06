@@ -4,7 +4,7 @@ import CardDepartment from "./CardDepartment";
 const departmentDetails = [
   {
     id: 1,
-    image: "../../../public/icons/guard.png",
+    image: "../../../public/photos/567A9714.jpg",
     name: "Protocol",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur doloremque eligendi voluptate repellat aperiam veniam.",
     cardNumber: "first",

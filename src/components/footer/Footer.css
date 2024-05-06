@@ -1,0 +1,118 @@
+footer{
+    background-color: #005245;
+    /* height: 50vh; */
+    padding: 3rem 1rem;
+    font-family: var(--main-font);
+}
+#footer_logo{
+    /* background-color: rebeccapurple; */
+    width: 50%;
+    display: block;
+    margin: auto;
+
+}
+/* .contact_us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: .4rem;
+
+}
+.contact_us p{
+    color: #fff;
+    font-weight: 600;
+    font-size: large;
+    letter-spacing: 1.7px;
+}
+.input_form{
+
+    display: flex;
+    gap: 0;
+}
+.input_form input{
+    border: none;
+    background-color: #7070708a;
+    padding: .5rem 1.6rem;
+    width: 140px;
+    border-radius:  .3rem 0 0 .3rem;
+}
+.input_form button {
+    border: none;
+    background-color: var(--secondary-color);
+    padding: .5rem 1.6rem;
+    color: #fff;
+    font-family: var(--main-font);
+    font-size: 1rem;
+    border-radius: 0 .3rem .3rem 0;
+} */
+.footerDivide{
+    border: none;
+    background-color: #999898;
+    height: 1px;
+    margin: 2rem 0;
+}
+.footer_details{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.serviceTimes{
+    display: flex;
+        flex-direction: row;
+        /* background-color: rebeccapurple; */
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+}
+.location_head, .friService_head, .sundays_head, .in_touch_head{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    font-size: 1.3rem;
+    margin: .6rem 0;
+}
+.footer_location p, .footer_friService p, .footer_sundays p, .in_touch p{
+    color: #a8a8a8;
+    font-weight: 400;
+    font-size: 1.1rem;
+    /* font-size: .9rem; */
+}
+footer .map{
+    margin-bottom: 3rem;
+}
+.socials{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    margin-top: 1rem;
+}
+.socials a{
+    background-color: gold;
+    /* padding: 1rem; */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+    border: 1px solid gold;
+    transition: .3s ease-in-out;
+}
+.socials a:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.copyright{
+    color: #fff;
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+}

@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <img src={churchLogo} alt="" id="churchLogo" />
-      <button>menu</button>
+      <i className="fa-solid fa-bars menuBt"></i>
     </nav>
   );
 };
