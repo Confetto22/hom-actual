@@ -43,8 +43,11 @@ const Footer = () => {
       </div>
       <Map />
       <div className="in_touch">
-        <h5 className="in_touch_head">Stay In Touch</h5>
-        <p>follow our socials to stay updated on our latest info</p>
+        <div className="inTouch_text">
+          <h5 className="in_touch_head">Stay In Touch</h5>
+          <p>follow our socials to stay updated on our latest info</p>
+        </div>
+
         <div className="socials">
           <a href="#">
             <i className="fa-brands fa-facebook-f"></i>

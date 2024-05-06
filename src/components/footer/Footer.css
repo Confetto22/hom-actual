@@ -116,3 +116,36 @@ footer .map{
     font-size: large;
     text-align: center;
 }
+@media only screen and (min-width:768px){
+    #footer_logo{
+        width: 40%;
+    }
+    .serviceTimes{
+        justify-content: space-around;
+    }
+    .in_touch{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+   
+}
+@media only screen and (min-width:900px){
+    #footer_logo{
+        width: 30%;
+    }
+     .footer_details{
+        gap: 3rem;
+    }
+    .serviceTimes{
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+    footer .map{
+        display: inline-block;
+    }
+    .in_touch{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

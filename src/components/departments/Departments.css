@@ -8,15 +8,19 @@
 }
 .departments_heading{
     /* background-color: rebeccapurple; */
-    height: 200px;
+    /* height: 200px; */
     background-image: url('../../../public/photos/DSC_1080.jpg');
     background-position: center;
     background-size: cover;
+    aspect-ratio: 16/7;
+    width: 100%;
 }
 .heading_content{
     background-color: rgba(0, 0, 0, 0.61);
     height: 100%;
-    padding-top: 3rem;
+    padding: 6rem 2rem;
+    /* padding-top: 6rem;
+    padding-bottom: 6rem; */
 }
 .heading_content h2{
     color: var(--main-color);
@@ -108,6 +112,9 @@
         flex-direction: column;
         align-items: center;
     }
+    /* .departments_heading{
+    background-position: top;
+    } */
     .all_departments{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -126,6 +133,13 @@
                 }
 }
 @media only screen and (min-width:900px){
+    .departments_heading{
+        aspect-ratio: 16/5;
+        background-position: top;
+    }
+    .heading_content h2{
+        font-size: 6vw;
+    }
     .all_departments {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
