@@ -1,5 +1,6 @@
 import "./Hero.css";
 import Navbar from "../navbar/Navbar";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -14,7 +15,9 @@ const Hero = () => {
             HOME FOR THE LOST AND BROKEN... <br />
             BUILDING SPIRITUAL COLOSSAL
           </p>
-          <button className="about_us">About Us</button>
+          <Link to="/about">
+            <button className="about_us">New here&#63;</button>
+          </Link>
         </div>
         {/* <div className="scripture_reference">
           <img
